@@ -1,0 +1,72 @@
+.login-container,
+.signup-container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  box-shadow: 0px 2px 5px 0px var(--brand);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.signup-container {
+  margin-top: 5rem;
+}
+
+.firstname,
+.lastname,
+.email,
+.password {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.auth-btn {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form-element{
+    width: 90%;
+}
+.form-label{
+    color: var(--color);
+}
+.email, .password, .firstname, .lastname{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--black-200);
+}
+.auth-form-links {
+  margin-bottom: 0.5rem;
+  color: var(--color)
+}
+
+.signup-link-login,
+.password-link,
+.login-link {
+  margin-left: 0.5rem;
+  color: var(--brand);
+}
+
+@media screen and (max-width: 1020px) {
+  .login-container,
+  .signup-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login-container,
+  .signup-container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,25 @@
+@import url("https://azure-ui.netlify.app/main.css");
+*{
+  color: var(--brand);
+  font-family: "Open Sans", sans-serif;
+}
+:root{
+  --dark-mode-bg: #212121;
+  --dark-mode-bg-1:#2f2f2f;
+  --dark-mode-chips: #383838;
+  --border: #474646;
+  --color: #ffffff;
+  --brand: #FFCC00;
+}
+.App{
+  color: var(--color);
+  font-family: "Open Sans", sans-serif;
+}
+
+input{
+  color:var(--dark-mode-bg)
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
