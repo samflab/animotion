@@ -13,7 +13,6 @@ export const Navbar = () => {
       <div className="header-left">
         <MenuIcon onClick={() => setShowSideNav(true)} />
         <Link to="/">
-          {/* <img src="logo.png" alt="" className="header-img-3pt" /> */}
           <h2 className="company-name">Animotion</h2>
         </Link>
       </div>
@@ -28,8 +27,6 @@ export const Navbar = () => {
                 <button className="login-btn">Login</button>
               </Link>
             </li>
-            
-            
           </ul>
         </nav>
       </div>

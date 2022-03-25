@@ -71,16 +71,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 880px) {
-  .hamburger-3pt {
-    display: inline;
-    color: var(--color);
-    cursor: pointer;
-  }
-  .header-icons-3pt {
-    display: none;
-  }
-}
+
 @media screen and (max-width: 650px) {
   .search-box {
     width: 20rem;
