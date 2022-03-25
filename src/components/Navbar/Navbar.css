@@ -8,17 +8,20 @@
 }
 .header-left {
   display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
-.header-logo-3pt {
-  height: 1.8rem;
-  width: 1.8rem;
+.logo-container{
+  height: 2rem;
+  width: 2rem;
 }
 
 .header-img-3pt {
-  height: 100%;
-  width: 100%;
+  height: 2rem;
+  width: 2rem;
 }
 .search-box {
+  color: var(--dark-mode-bg);
   margin: 0rem 1rem;
   font-size: 1rem;
   border-radius: 50px;
@@ -37,8 +40,20 @@
   margin-left: 1rem;  
 }
 
-.hamburger-3pt {
-  display: none;
+.login-btn{
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Open Sans", cursive;
+  background-color: var(--brand);
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  color: var(--dark-mode-bg);
+  border: none;
+}
+.sidenav{
+  width: 2rem;
 }
 
 .header-menu-3pt {
@@ -56,16 +71,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 880px) {
-  .hamburger-3pt {
-    display: inline;
-    color: var(--color);
-    cursor: pointer;
-  }
-  .header-icons-3pt {
-    display: none;
-  }
-}
+
 @media screen and (max-width: 650px) {
   .search-box {
     width: 20rem;

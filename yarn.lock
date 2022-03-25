@@ -7275,6 +7275,11 @@ react-scripts@5.0.0:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-simple-sidenav@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-simple-sidenav/-/react-simple-sidenav-2.0.0.tgz#99d2ca11faab5ae2aef9ee24d4b8a83553b140b6"
+  integrity sha512-k/lIo1SyTxHAfSMa9hJ+ShcN3innV4yXUcDgzeo3DHjcZgrEejO9H9pv2ENxFPk4ClCEwJ2izfi4WLFoki/XGw==
+
 react-textarea-autosize@^8.3.2:
   version "8.3.3"
   resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-8.3.3.tgz#f70913945369da453fd554c168f6baacd1fa04d8"
